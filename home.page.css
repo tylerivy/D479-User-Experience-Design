@@ -74,12 +74,6 @@ main {
 
 main .home-h1 {
     font-size: 2.8rem;
-    animation-name: wobbleAnimation;
-    animation-duration: 1.5s;
-    animation-timing-function: ease;
-    animation-iteration-count: 2;
-    animation-direction: normal;
-    animation-fill-mode: both;
 }
 
 main h1 {
@@ -166,6 +160,27 @@ main h1 {
     
 }
 
+.luxury-hotel {
+    padding: 0.35rem 0.35rem;
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: lighter;
+}
+
+.img3 {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.img1 {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.luxury-hotel img {
+    margin: 0 0.3rem;
+}
+
+
 footer {
     padding: 0.5rem;
     background-color: #0077B6;
@@ -229,6 +244,13 @@ footer a {
     background-color: #0077B6;
     margin-bottom: 2.5rem;
     border-radius: 4px;
+    animation-name: wobbleAnimation;
+    animation-delay: 5s;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    animation-fill-mode: both;
 }
 
 .cta a {
