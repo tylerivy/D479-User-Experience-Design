@@ -160,6 +160,10 @@ main h1 {
     
 }
 
+.diningh2 {
+    margin-top: 2rem;
+}
+
 .luxury-hotel {
     padding: 0.35rem 0.35rem;
     margin-top: 3.5rem;
@@ -179,6 +183,11 @@ main h1 {
 .luxury-hotel img {
     margin: 0 0.3rem;
 }
+
+.dining-section img {
+    margin: 0 0.3rem;
+}
+
 
 form {
     font-size: 1.5rem;
