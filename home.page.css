@@ -56,6 +56,7 @@ ul li a:hover {
 
 body {
     text-align: center;
+    min-height: 100vh;
 }
 
 main {
@@ -160,6 +161,14 @@ main h1 {
     
 }
 
+.first-faq-section {
+    margin-top: 2rem;
+}
+
+.faq-ma {
+    height: 80vh;    
+}
+
 .diningh2 {
     margin-top: 2rem;
 }
@@ -170,6 +179,12 @@ main h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-weight: lighter;
+}
+
+.faq-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .img3 {
