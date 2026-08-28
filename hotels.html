@@ -19,22 +19,70 @@
         </header>
         <main>
             <h1>Hotel Options</h1>
-            <div class="luxury-hotel">
-                <section>
-                    <h2>Four-Star Resort</h2>
-                    <img class="img1" src="./images/luxury-hotel1.webp" alt="luxury hotel room">
-                    <img src="./images/luxury-hotel2.webp" alt="luxury hotel hot tub">
-                    <img class="img3" src="./images/luxury-hotel3.webp" alt="luxury hotel room">
-                    <p>Rooms start at $364</p>
-                </section>
-                <section>
-                    <h2>Bed & Breakfast</h2>
-                    <img class="img1" src="./images/bed-breakfast1.webp" alt="bed and breakfast room">
-                    <img src="./images/bed-breakfast2.webp" alt="hallway at bed and breakfast">
-                    <img class="img3" src="./images/bed-breakfast3.webp" alt="additional photo of bed and breakfast room">
-                    <p>Rooms start at $165</p>
-                </section>
+            <div class="hotel-grid">
+                <div class="luxury-hotel">
+                    <section>
+                        <h2>Four-Star Resort</h2>
+                        <img class="img1" src="./images/luxury-hotel1.webp" alt="luxury hotel room">
+                        <img src="./images/luxury-hotel2.webp" alt="luxury hotel hot tub">
+                        <img class="img3" src="./images/luxury-hotel3.webp" alt="luxury hotel room">
+                        <p>Rooms start at $364</p>
+                    </section>
+                    <section>
+                        <h2>Bed & Breakfast</h2>
+                        <img class="img1" src="./images/bed-breakfast1.webp" alt="bed and breakfast room">
+                        <img src="./images/bed-breakfast2.webp" alt="hallway at bed and breakfast">
+                        <img class="img3" src="./images/bed-breakfast3.webp" alt="additional photo of bed and breakfast room">
+                        <p>Rooms start at $165</p>
+                    </section>
+                </div>
+                <div class="luxury-hotel">
+                    <section>
+                        <h2>Family Owned Hotels</h2>
+                        <img class="img1" src="./images/family-owned1.webp" alt="family owned hotel room">
+                        <img src="./images/family-owned2.webp" alt="family owned hotel bathroom" width="287" height="192">
+                        <img class="img3" src="./images/family-owned3.webp" alt="two bed family owned hotel room">
+                        <p>Rooms start at $100</p>
+                    </section>
+                    <section>
+                        <h2>Hostels</h2>
+                        <img class="img1" src="./images/hostel1.jpg" alt="hostel room" width="287" height="192">
+                        <img src="./images/hostel2.jpg" alt="hot tub at hostel" width="287" height="192">
+                        <img class="img3" src="./images/hostel3.jpg" alt="bike rack at hostel" width="287" height="192">
+                        <p>Rooms start at $45</p>
+                    </section>
+                </div>
             </div>
+            <form action="" method="post">
+                <label for="fullName">Full Name</label>
+                <input type="text">
+                <label for="lodging">Select</label>
+                <select name="stay" id="stay">
+                    <option value="4-star">Four-Star</option>
+                    <option value="b&b">Bed & Breakfast</option>
+                    <option value="familyOwned">Family Owned</option>
+                    <option value="hostel">Hostel</option>
+                </select>
+                <label for="email">Email</label>
+                <input type="email">
+                <label for="date">Date</label>
+                <input type="date">
+                <button type="submit">Submit</button>
+            </form> 
         </main>
+        <footer>
+            <div class="footer-grid1">
+                <a href="faq.html">FAQs</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+            </div>
+            <div class="footer-grid2">
+                <p>Follow us on social media</p>
+                <a class="x" href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a class="instagram" href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a class="youtube" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </footer>
     </body>
 </html>

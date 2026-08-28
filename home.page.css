@@ -162,7 +162,7 @@ main h1 {
 
 .luxury-hotel {
     padding: 0.35rem 0.35rem;
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-weight: lighter;
@@ -180,6 +180,44 @@ main h1 {
     margin: 0 0.3rem;
 }
 
+form {
+    font-size: 1.5rem;
+    margin: 2.5rem auto;
+    width: 20%;
+    gap: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form input {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #0077B6;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: #b9fbc0;
+    color: black;
+}
+
+option {
+    font-size: 1.5rem;
+}
+
+select {
+    font-size: 1.5rem;
+}
 
 footer {
     padding: 0.5rem;
